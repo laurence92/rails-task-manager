@@ -4,4 +4,45 @@
 
 body {
   font-family: Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F1FAEE;
 }
+
+h1{
+  color: #1D3557;
+}
+
+h3{
+  color: #1D3557;
+  opacity: 90%;
+}
+
+.done{
+  color: green;
+}
+
+ul{
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  list-style: circle;
+}
+
+.text.optional{
+  text-align: start;
+}
+
+li{
+  padding: 10px;
+}
+
+.form{
+  background-color: #A8DADC;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
