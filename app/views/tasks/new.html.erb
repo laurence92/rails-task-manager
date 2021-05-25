@@ -1,0 +1,9 @@
+<%# create a form %>
+<h1>Create new task</h1>
+<%= simple_form_for(@task) do |f| %>
+  <%= f.input :title %>
+  <%= f.input :details %>
+  <%= f.submit %>
+<% end %>
+  
+<p><%= link_to "Go back to index", tasks_path %></p>
